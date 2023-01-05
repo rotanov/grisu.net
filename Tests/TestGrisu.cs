@@ -122,6 +122,9 @@ namespace Tests
         [TestCase("-5401.035826582183", -5401.035826582183)]
         [TestCase("-0.0015677654444036897", -0.0015677654444036897)]
         [TestCase("-3.3200274383931173e-4", -3.3200274383931173e-4)]
+        [TestCase("0.51211952535068594", 0.51211952535068594)]
+        [TestCase("431.45061948654927", 431.45061948654927)]
+        [TestCase("27.201309524416448", 27.201309524416448)]
         public void TestDoubleToString(string expected, double value)
         {
             StringWriter writer = new StringWriter();
