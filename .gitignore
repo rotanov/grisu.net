@@ -8,3 +8,5 @@ _ReSharper.*
 TestResults/
 *.pidb
 *.userprefs
+.vs/
+packages/
